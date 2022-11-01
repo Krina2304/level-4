@@ -48,6 +48,7 @@ describe("A test that checks creating a new todo", () => {
     ).toBe(true);
   });
 
+  
   test("Checks retrieval of due later items", () => {
     let dueLaterList = dueLater();
 
